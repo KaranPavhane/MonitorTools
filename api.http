@@ -1,0 +1,37 @@
+
+###
+POST http://localhost:4004/odata/v4/my/getAccessToken
+Content-Type: application/json
+
+{}
+###
+POST http://localhost:4004/odata/v4/my/fetchCost
+Content-Type: application/json
+
+{
+    "fromDate": "202510",
+    "toDate": "202510"
+}
+
+
+###
+
+POST http://localhost:4004/odata/v4/my/getUsageData
+Content-Type: application/json
+
+{
+    "fromDate": "202510",
+    "toDate": "202510"
+}
+
+
+###
+
+POST http://localhost:4004/odata/v4/my/fetchCost
+Content-Type: application/json
+
+{   
+    "fromDate": "202510",
+    "toDate": "202510"
+   
+}
