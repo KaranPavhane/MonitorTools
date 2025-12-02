@@ -10,11 +10,9 @@ service MyService {
     action getUsageData(fromDate: String, toDate: String) returns String;
 
     action fetchUsage(fromDate: String,
-                      toDate: String) returns String;
+                      toDate: String)                     returns String;
 
-  
     action fetchCost(fromDate: String,
-                     toDate: String)  returns String;
+                     toDate: String)                      returns String;
 
 }
-

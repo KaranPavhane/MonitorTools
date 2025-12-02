@@ -6,7 +6,6 @@ import cds from "@sap/cds";
 import axios from "axios";
 
 
-
 export default function (srv) {
   srv.on('getAccessToken', async () => {
     const token = await getToken();
@@ -113,7 +112,6 @@ export default function (srv) {
       });
       index++;
     }
-
 
     let finalResult = { usageData: [] };
 
